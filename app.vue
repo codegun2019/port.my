@@ -1,5 +1,11 @@
 <template>
-  <h1 class="text-1xl font-bold underline">
-    Hello world!
-  </h1>
+  <div>
+    <!-- แทนที่ NuxtWelcome ด้วย Layout และ NuxtPage -->
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+  </div>
 </template>
+
+<script setup>
+</script>
