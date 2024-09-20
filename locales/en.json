@@ -1,4 +1,20 @@
 {
   "welcome": "Welcome to our website",
-  "about": "About us"
+  "about": "About us",
+  "footer_message": "All rights reserved",
+  "menu": {
+    "buy": "Buy",
+    "platform": "Platform",
+    "more": "More"
+  },
+  "buttons": {
+    "open_account": "Open Account",
+    "login": "Login"
+  },
+  "hero": {
+    "title": "Experience superior trading",
+    "subtitle": "With better offers",
+    "description": "Increase your chance of profit by lowering costs. Trade with the lowest spreads and the fastest order execution. Join us for unmatched trading advantages.",
+    "cta": "Claim your $30 welcome bonus"
+  }
 }

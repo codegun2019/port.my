@@ -1,12 +1,12 @@
 <template>
   <div>
-    <!-- HeaderComponent.vue จะถูกแสดงในทุกหน้า -->
+    <!-- Header component -->
     <HeaderComponent />
 
-    <!-- เนื้อหาหลักของแต่ละหน้าจะถูกแสดงใน Nuxt component -->
-    <Nuxt />
+    <!-- ใช้ NuxtPage แทน Nuxt -->
+    <NuxtPage />
 
-    <!-- FooterComponent.vue จะถูกแสดงในทุกหน้า -->
+    <!-- Footer component -->
     <FooterComponent />
   </div>
 </template>

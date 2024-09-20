@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  layout: 'HeaderComponent'
+  //layout: 'HeaderComponent'
 };
 </script>
 
