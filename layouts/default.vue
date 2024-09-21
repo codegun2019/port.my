@@ -3,7 +3,7 @@
     <!-- Header component -->
     <HeaderComponent />
 
-    <!-- ใช้ NuxtPage แทน Nuxt -->
+    <!-- Main content area -->
     <NuxtPage />
 
     <!-- Footer component -->
@@ -11,14 +11,7 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import HeaderComponent from '~/components/Layouts/HeaderComponent.vue'
 import FooterComponent from '~/components/Layouts/FooterComponent.vue'
-
-export default {
-  components: {
-    HeaderComponent,
-    FooterComponent
-  }
-}
 </script>
