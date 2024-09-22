@@ -10,6 +10,28 @@
       </button>
     </div>
   </div>
+  <!-- Hero section Tab -->
+  <div class="bg-gray-900 text-white py-4">
+  <div class="flex justify-between items-center text-center">
+    <div class="flex-1">
+      <h2 class="text-lg font-bold">LotBack</h2>
+      <p class="text-sm">โปรแกรม</p>
+    </div>
+    <div class="flex-1">
+      <h2 class="text-lg font-bold">0.0</h2>
+      <p class="text-sm">สเปรดต่ำ</p>
+    </div>
+    <div class="flex-1">
+      <h2 class="text-lg font-bold">STP</h2>
+      <p class="text-sm">บัญชี</p>
+    </div>
+    <div class="flex-1">
+      <h2 class="text-lg font-bold">ฟรีสว็อป</h2>
+      <p class="text-sm">คอมมิชชั่น</p>
+    </div>
+  </div>
+</div>
+
 </template>
 
 <script setup>
@@ -21,52 +43,6 @@ import cover from '~/assets/images/cover-landing.png'
 const isDropdownOpen = ref(false)
 const { locale } = useI18n()
 
-// ฟังก์ชันเพื่อกำหนดธงตามภาษาที่เลือก
-const currentFlag = computed(() => {
-  switch (locale.value) {
-    case 'th':
-      return thFlag
-    case 'en':
-      return enFlag
-    case 'lo':
-      return loFlag
-    case 'zh':
-      return zhFlag
-    case 'jp':
-      return jpFlag
-    default:
-      return enFlag
-  }
-})
-
-// แสดงชื่อภาษาปัจจุบัน
-const currentLanguage = computed(() => {
-  switch (locale.value) {
-    case 'th':
-      return 'TH'
-    case 'en':
-      return 'EN'
-    case 'lo':
-      return 'LA'
-    case 'zh':
-      return 'CN'
-    case 'jp':
-      return 'JP'
-    default:
-      return 'EN'
-  }
-})
-
-
-function toggleDropdown() {
-  isDropdownOpen.value = !isDropdownOpen.value;
-}
-
-function switchLanguage(lang) {
-  locale.value = lang;
-  localStorage.setItem("selectedLanguage", lang); // บันทึกค่าภาษาใน localStorage
-  isDropdownOpen.value = false;
-}
 
 // อ่านค่าภาษาเก่าจาก localStorage เมื่อตอนโหลดหน้าเว็บ
 onMounted(() => {

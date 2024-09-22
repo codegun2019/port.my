@@ -10,20 +10,6 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  
-  // การตั้งค่าแถบโหลด
-  loading: {
-    color: '#00C58E', // สีของแถบโหลด
-    height: '4px', // ความสูงของแถบโหลด
-    continuous: true // ให้โหลดอย่างต่อเนื่อง
-  },
-  
-  // การตั้งค่า loading indicator (ในโหมด SPA)
-  loadingIndicator: {
-    name: 'circle', // รูปแบบการแสดงโหลด (เช่น circle, cube, pulse)
-    color: '#00C58E', // สีของแอนิเมชันโหลด
-    background: 'white' // สีพื้นหลังขณะโหลด
-  },
 
   modules: ['@nuxtjs/i18n'], // เพิ่ม i18n เป็นโมดูล
   i18n: {
