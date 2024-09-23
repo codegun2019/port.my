@@ -22,10 +22,10 @@ module.exports = {
           700: '#C69002',
           800: '#A36802',
           900: '#7D4E00',   // เฉดสีที่เข้มที่สุด
-          DEFAULT: '#FABD02',  // ใช้เมื่อเรียก primary
-          dark: '#388E3C',   // สีเข้ม
-          light: '#C8E6C9',  // สีอ่อน
         },
+        primaryDark: '#388E3C',   // Dark version
+        primaryLight: '#C8E6C9',  // Light version
+        primaryDarkNight: '#161616',  // Light version
         secondary: {
           50: '#f7f7f7',
           100: '#e1e1e1',
@@ -37,6 +37,18 @@ module.exports = {
           700: '#626262',
           800: '#515151',
           900: '#3b3b3b',
+        },
+        dark: {
+          50: '#1a1a1a',
+          100: '#1c1c1c',
+          200: '#202020',
+          300: '#242424',
+          400: '#272727',
+          500: '#1e1e1e',
+          600: '#181818',
+          700: '#151515',
+          800: '#121212',
+          900: '#0f0f0f',
         },
       },
     },
