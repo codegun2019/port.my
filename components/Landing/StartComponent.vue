@@ -13,7 +13,7 @@
       <div class="flex items-center px-[16px] pb-[62px] pt-[16px] md:pb-0 md:pt-[0]">
         <div>
           <div>
-            <h2 class="text-4xl font-bold">
+            <h2 class="text-4xl mt-5 mb-5 font-bold lg:text-left xl:tex-teft text-center">
               <span class="text-white">เริ่มต้นซื้อขายในตลาดโลกได้แล้ววันนี้</span>
             </h2>
             <p class="mt-2 text-center text-secondary-400 md:text-start lg:text-body-3">

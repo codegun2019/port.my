@@ -12,11 +12,11 @@
               พบกับตราสารมากกว่า 250+ รายการด้วยสเปรดที่ต่ำเป็นพิเศษ 0.0 pips ไม่มีรีโควต ราคาดีที่สุด
               และข้อจำกัดทางการค้าเป็นศูนย์ รับประกันโอกาสในการซื้อขายที่ราบรื่นและคุ้มค่าสำหรับลูกค้าคนสำคัญของเราที่ IUX
             </p>
-            <div class="mt-6 flex space-x-4">
-              <a href="#" class="px-6 py-3 bg-primary-600 text-white rounded-full hover:bg-primary-700">
+            <div class="mt-6 flex flex-col xl:flex-row space-x-0 xl:space-x-4">
+              <a href="#" class="px-6 py-3 text-center mb-5 xl:mb-0 bg-primary-600 text-white rounded-full hover:bg-primary-700">
                 เริ่มต้นการซื้อขาย
               </a>
-              <a href="#" class="px-6 py-3 border border-primary-600 text-primary-600 rounded-full hover:bg-gray-800">
+              <a href="#" class="px-6 py-3 text-center border border-primary-600 text-primary-600 rounded-full hover:bg-gray-800">
                 บัญชีทดลอง
               </a>
             </div>

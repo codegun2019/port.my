@@ -14,14 +14,14 @@
 </template>
 
 <script lang="ts" setup>
-import HeaderComponent from '~/components/Home/HeaderComponent.vue'
-import MyportComponent from '~/components/Home/MyportComponent.vue'
-import ReadyComponent from '~/components/Home/ReadyComponent.vue'
-import WordComponent from '~/components/Home/WordComponent.vue'
-import BuysellComponent from '~/components/Home/BuysellComponent.vue'
-import PaymentComponent from '~/components/Home/PaymentComponent.vue'
-import TraderComponent from '~/components/Home/TraderComponent.vue'
-import StartComponent from '~/components/Home/StartComponent.vue'
+import HeaderComponent from '~/components/Landing/HeaderComponent.vue'
+import MyportComponent from '~/components/Landing/MyportComponent.vue'
+import ReadyComponent from '~/components/Landing/ReadyComponent.vue'
+import WordComponent from '~/components/Landing/WordComponent.vue'
+import BuysellComponent from '~/components/Landing/BuysellComponent.vue'
+import PaymentComponent from '~/components/Landing/PaymentComponent.vue'
+import TraderComponent from '~/components/Landing/TraderComponent.vue'
+import StartComponent from '~/components/Landing/StartComponent.vue'
 
 </script>
 

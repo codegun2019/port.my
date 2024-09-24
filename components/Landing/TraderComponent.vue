@@ -1,13 +1,13 @@
 <template>
   <section id="section-trader" :style="{
       backgroundImage: `url(${BglightImage})`,
-    }" class="bg-bottom 2xl:bg-contain bg-left bg-black text-white bg-[70%_50%] bg-no-repeat">
+    }" class="bg-bottom 2xl:bg-contain bg-left bg-black bg-top text-white bg-[80%_0%] bg-no-repeat">
     <div class="container mx-auto px-[16px]">
       <div class="grid grid-cols-1 gap-4 lg:grid-cols-2">
         <!-- Left content -->
         <div class="flex items-center justify-center pl-0 pt-[62px] lg:justify-start lg:pl-12 lg:pt-0">
           <div>
-            <h2 class="text-4xl font-bold">
+            <h2 class="text-4xl lg:text-left xl:tex-teft text-center font-bold">
               MetaTrader<span class="text-primary-400">5</span>
             </h2>
             <h2 class="mt-[16px] text-center text-body-2 text-white sm:text-body-1 md:mt-0 lg:text-start lg:text-heading-6">

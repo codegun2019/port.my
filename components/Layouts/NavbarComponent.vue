@@ -21,9 +21,11 @@
 
         <!-- Menu items (hidden on mobile, shown on desktop) -->
         <div :class="{'hidden': isMobileMenuOpen, 'hidden': !isMobileMenuOpen}" class="md:flex md:space-x-6">
+          <NuxtLink to="/">Home</NuxtLink>
           <a href="#" class="hover:text-primary-400">{{ $t("menu.buy") }}</a>
           <a href="#" class="hover:text-primary-400">{{ $t("menu.platform") }}</a>
           <a href="#" class="hover:text-primary-400">{{ $t("menu.more") }}</a>
+          <NuxtLink to="market">Market</NuxtLink>
         </div>
       </div>
 
