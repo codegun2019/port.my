@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-primary-600">
+  <section class="bg-primary-600" id="section-payment">
     <div class="container py-4 mx-auto">
       <div class="flex justify-between flex-nowrap overflow-scroll md:overflow-hidden no-scrollbar" style="gap: 24px;">
         <!-- ใช้รูปภาพที่ import มาแสดง -->

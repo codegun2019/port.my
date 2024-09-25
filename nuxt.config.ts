@@ -10,8 +10,14 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-
-  modules: ['@nuxtjs/i18n'], // เพิ่ม i18n เป็นโมดูล
+  
+  modules: ['@nuxtjs/i18n', '@nuxtjs/google-fonts'], // แก้ไขรูปแบบโมดูลให้ถูกต้อง
+  googleFonts: {
+    families: {
+      Anuphan: [100, 300, 400, 500, 700, 800] // เลือกน้ำหนักของฟอนต์ที่ต้องการ
+    },
+    display: 'swap', // ปรับการแสดงผลฟอนต์เพื่อป้องกัน FOUT
+  },
   i18n: {
     locales: [
       { code: 'en', iso: 'en-US', file: 'en.json', name: 'English' },

@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black text-white min-h-screen">
+  <div class="bg-black text-white min-h-screen" id="section-header">
       <!-- Hero section -->
       <div :style="{ backgroundImage: `url(${cover})` }" class="text-center pt-[200px] px-5 bg-[50%_0] bg-no-repeat md:bg-cover md:bg-center  h-screen">
         <section class="container mx-auto" id="header-section">

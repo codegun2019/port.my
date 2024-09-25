@@ -7,10 +7,10 @@
   <PaymentComponent />
   <TraderComponent />
   <StartComponent />
-  <section class="container mx-auto p-6">
+  <!-- <section class="container mx-auto p-6">
     <h1 class="text-3xl text-center mb-4">{{ $t('welcome') }}</h1>
     <p class="text-lg text-center">{{ $t('about') }}</p>
-  </section>
+  </section> -->
 </template>
 
 <script lang="ts" setup>

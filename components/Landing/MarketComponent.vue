@@ -1,6 +1,6 @@
 <template>
   <div class="bg-dark-500 text-white md:py-16 py-5 md:px-16 px-5 min-h-screen flex items-center justify-center">
-    <section class="container mx-auto" id="myport-section">
+    <section class="container mx-auto" id="section-myport">
       <div class="bg-dark-500 text-white py-16">
         <div class="container mx-auto text-center">
           <h3 class="text-5xl font-bold mb-24 mt-24">

@@ -1,6 +1,6 @@
 <template>
   <div class="bg-black text-white md:py-16 py-5 md:px-16 px-5">
-    <section class="container mx-auto" id="myport-section">
+    <section class="container mx-auto" id="section-myport">
       <div class="rounded-t-[24px] border px-10 border-Color/background-card">
         <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
           <!-- Text Section -->

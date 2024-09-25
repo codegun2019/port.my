@@ -8,7 +8,7 @@
         <div class="flex items-center justify-center pl-0 pt-[62px] lg:justify-start lg:pl-12 lg:pt-0">
           <div>
             <h2 class="text-4xl lg:text-left xl:tex-teft text-center font-bold">
-              MetaTrader<span class="text-primary-400">5</span>
+              MetaTrader<span class="text-primary-500">5</span>
             </h2>
             <h2 class="mt-[16px] text-center text-body-2 text-white sm:text-body-1 md:mt-0 lg:text-start lg:text-heading-6">
               เทอร์มินอลซื้อขายที่ทรงพลัง
