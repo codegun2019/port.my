@@ -1,7 +1,7 @@
 <template>
   <section id="section-trader" :style="{
       backgroundImage: `url(${BglightImage})`,
-    }" class="bg-bottom 2xl:bg-contain bg-left bg-black bg-top text-white bg-[80%_0%] bg-no-repeat">
+    }" class="bg-bottom 2xl:bg-contain bg-left bg-black min-h-screen bg-top text-white bg-[80%_0%] bg-no-repeat">
     <div class="container mx-auto px-[16px]">
       <div class="grid grid-cols-1 gap-4 lg:grid-cols-2">
         <!-- Left content -->

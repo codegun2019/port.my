@@ -50,6 +50,10 @@ module.exports = {
           800: '#121212',
           900: '#0f0f0f',
         },
+        card:{
+          50: '#ffffff0d',
+          100: '#ffffff1a',
+        }
       },
     },
   },

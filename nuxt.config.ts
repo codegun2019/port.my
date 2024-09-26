@@ -31,6 +31,8 @@ export default defineNuxtConfig({
     strategy: 'no_prefix', // ไม่ใช้คำนำหน้าสำหรับ URL ภาษา
     defaultLocale: 'th' // กำหนดภาษาไทยเป็นค่าเริ่มต้น
   },
-
+  build: {
+    transpile: ['string-width', 'wide-align'],
+  },
   compatibilityDate: '2024-09-21'
 })

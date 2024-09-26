@@ -10,9 +10,9 @@
 </template>
 
 <script lang="ts" setup>
-import WithdrawComponent from '~/components/Deposit/WithdrawComponent.vue'
+import WithdrawComponent from '~/components/Promotion/WithdrawComponent.vue'
 import StartComponent from '~/components/Accounting/StartComponent.vue'
-import TraditionComponent from '~/components/Deposit/TraditionComponent.vue'
+import TraditionComponent from '~/components/Promotion/TraditionComponent.vue'
 </script>
 
 <style scoped>

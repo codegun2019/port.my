@@ -28,6 +28,7 @@
           <NuxtLink to="market">ร้านค้า</NuxtLink>
           <NuxtLink to="accounting">บัญชี</NuxtLink>
           <NuxtLink to="deposit">ฝากถอน</NuxtLink>
+          <NuxtLink to="promotion">โปรโมชั่น</NuxtLink>
         </div>
       </div>
 
