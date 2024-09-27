@@ -29,6 +29,9 @@
           <NuxtLink to="accounting">บัญชี</NuxtLink>
           <NuxtLink to="deposit">ฝากถอน</NuxtLink>
           <NuxtLink to="promotion">โปรโมชั่น</NuxtLink>
+          <NuxtLink to="platform">แพลตฟอร์ม</NuxtLink>
+          <NuxtLink to="partners">พาทเนอร์</NuxtLink>
+          <NuxtLink to="about">เกี่ยวกับเรา</NuxtLink>
         </div>
       </div>
 

@@ -1,10 +1,10 @@
 <template>
-  <div class="bg-primaryDarkNight text-white py-16 px-4 lg:px-24 pt-16">
+  <div class="bg-black text-white py-16 px-4 lg:px-24 pt-16">
     <section class="container mx-auto" id="section-ready">
     <!-- Section Header -->
       <div class="text-center my-10">
         <h2 class="text-5xl font-bold mb-24 mt-24">
-          <span class="text-primary-400">myport</span> ยกระดับการเทรดที่เหนือกว่า?
+          <span class="text-primary-400">พร้อม</span>ที่จะซื้อขายหรือยัง?
         </h2>
       </div>
 
