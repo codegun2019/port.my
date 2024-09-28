@@ -38,12 +38,7 @@
 </template>
 
 
-<script>
+<script lang="ts" setup>
 import ArrowIcon from '~/components/composables/ArrowIcon.vue'; // Assuming you have an ArrowIcon component
 
-export default {
-  components: {
-    ArrowIcon,
-  },
-};
 </script>

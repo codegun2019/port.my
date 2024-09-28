@@ -50,29 +50,40 @@ const startCounting = () => {
   })
 }
 </script>
-
 <template>
-  <div class="preloader">
-    <div class="preloader__percent h3">
+  <div class="preloader h-screen w-screen flex justify-center items-center fixed inset-0 z-50 bg-black text-white">
+    <div class="preloader__percent h3 text-center">
+      <div class="loader mb-4 mx-auto"></div> <!-- เพิ่ม margin-bottom เพื่อให้มีช่องว่างระหว่าง loader และเปอร์เซ็นต์ -->
       {{ count }}% <!-- แสดงเปอร์เซ็นต์การนับ -->
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
-.preloader {
-  position: fixed;
-  inset: 0;
-  z-index: 9999;
-  background: black;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .preloader__percent {
   opacity: 0;
   font-size: 80px;
   transition: opacity 0.5s ease-in-out;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 45px;
+  aspect-ratio: .75;
+  --c: no-repeat linear-gradient(#fff 0 0);
+  background: 
+    var(--c) 0%   50%,
+    var(--c) 50%  50%,
+    var(--c) 100% 50%;
+  animation: l7 1s infinite linear alternate;
+}
+
+@keyframes l7 {
+  0%  {background-size: 20% 50% ,20% 50% ,20% 50% }
+  20% {background-size: 20% 20% ,20% 50% ,20% 50% }
+  40% {background-size: 20% 100%,20% 20% ,20% 50% }
+  60% {background-size: 20% 50% ,20% 100%,20% 20% }
+  80% {background-size: 20% 50% ,20% 50% ,20% 100%}
+  100%{background-size: 20% 50% ,20% 50% ,20% 50% }
 }
 </style>
